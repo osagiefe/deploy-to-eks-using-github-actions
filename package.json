@@ -1,0 +1,23 @@
+{
+  "name": "deploy-to-eks-using-github-actions",
+  "version": "1.0.0",
+  "description": "Using Gitupaction CI/CD pipeline to deploy docker image and push it into ecr. Also, I will then pull the images in ecr into AWS Kubernettes Cluster to see if the application can be launched.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osagiefe/deploy-to-eks-using-github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osagiefe/deploy-to-eks-using-github-actions/issues"
+  },
+  "homepage": "https://github.com/osagiefe/deploy-to-eks-using-github-actions#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
