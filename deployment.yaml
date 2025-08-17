@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: diamondcontainer
-        image: 861276106382.dkr.ecr.us-east-1.amazonaws.com/diamondimage:1.6
+        image: 861276106382.dkr.ecr.us-east-1.amazonaws.com/diamondimage:latest
         ports:
         - containerPort: 8080
