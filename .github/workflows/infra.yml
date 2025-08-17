@@ -44,5 +44,5 @@ jobs:
     - name: Deploy to AWS-EKS
       run: |
         kubectl apply -f deployment.yaml
-        kubectl apply -f Service.yaml
+        kubectl apply -f service.yaml
         
